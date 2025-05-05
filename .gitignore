@@ -1,0 +1,25 @@
+# Ignorer les fichiers système
+.DS_Store
+Thumbs.db
+
+# Logs et fichiers temporaires
+*.log
+*.tmp
+*.swp
+
+# Fichiers sensibles ou config locaux
+.env*
+.vscode/
+.idea/
+cache/
+tmp/
+
+# Docker
+docker/php/Dockerfile
+docker/mysql/*.sql
+
+# Autres
+vendor/
+build/
+
+
